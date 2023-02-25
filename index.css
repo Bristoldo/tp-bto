@@ -1,0 +1,753 @@
+/* Debut: proprietes du corps de la page */
+body{
+    margin:0;
+    padding: 0;
+    background-color:aliceblue;
+    position: relative;
+}
+
+
+/* Fin: proprietes du corps de la page */
+
+
+/* Debut: de modification de la taille du logo */
+
+.logo{
+    height:auto;
+    max-width: 200px;
+    margin: 0;
+    margin-top: -50px;
+    margin-left: 30px;
+    position:absolute;
+    
+
+}
+
+
+/* Fin: de modification de la taille du logo */
+
+
+/* Debut: proprirtes image d'entete */
+.image_entete{
+    background-image:url("./1649066096468\ -\ Copy\ \(2\).jpg");
+    background-repeat:round;
+    background-blend-mode: hue;
+    background-origin: padding-box;
+    background-color:hsla(118, 40%, 51%, 0.39);
+    height:130px;
+    opacity:.7;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.icon_recherche{
+    height:auto;
+    max-width:25px;
+    padding:3px;
+    margin-left:200px;
+    margin-top:50px;
+    position:absolute;
+    -webkit-user-select: none;
+    
+
+}
+
+.icon_recherche:hover{
+    transition: ease-out 1s;
+    background-color: rgb(147, 148, 150);
+    cursor: pointer;
+
+
+}
+
+
+
+.input_recherche{
+color: rgb(0, 0, 0);
+margin: 30px;
+padding:5px;
+padding-right:27px;
+max-width: 800px;
+height: 30px;
+border-style: none;
+margin-top:50px;
+outline: none;
+
+}
+
+/* Fin: proprietes image d'entete */
+
+nav{
+    position:sticky;
+    display:block;
+    font-size: 23px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    box-shadow:0px 0px 2px black; 
+    height: 1px;
+}
+
+
+
+
+@media (max-width: 999px){
+
+body{
+    
+   visibility:hidden;
+    background-color:gray;
+}
+
+    
+
+}
+
+
+
+nav ul{
+    -webkit-user-select: none;
+    position:relative;
+    background-color: rgba(0, 0, 0, 0.700);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    list-style: none;
+    display:flex;
+    margin-top: 0px;
+}
+
+.liens{
+    text-shadow: 0px 1px 10px black;
+    -webkit-user-select: none;
+    border-radius: 2px;
+    padding-top:17px;
+    padding-bottom: 17px;
+    padding-left: 22px;
+    padding-right: 22px;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.911);
+}
+
+/* Debut: Ces proprietes seront appliques aux elements de la barre de navigation lorsq'on va devoir passer la souris dessus */
+.liens:hover{
+    box-shadow: 0px 15px 10px;
+    text-shadow:0px 1px 10px rgba(160, 160, 160, 0.164);
+    background-color: rgba(94, 226, 164, 0.74);
+    color: rgba(85, 81, 81, 0.705);
+    border-radius: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: ease-in-out 1s;
+}
+
+/* Fin: Ces proprietes seront appliques aux elements de la barre de navigation lorsq'on va devoir passer la souris dessus */
+
+
+
+.section_des_sondages{
+    -webkit-user-select: none;
+    background-color:  rgba(127, 255, 212, 0.623);
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.700);
+    padding:10px;
+    color:rgb(250, 250, 250);
+   position:relative;
+    box-shadow:0px 0px 10px black;
+    height:450px;
+    width:300px;
+    font-size: 20px;
+    display:block;
+  
+}
+
+
+.titre_des_sondages{
+    -webkit-user-select: none;
+    color:rgb(253, 253, 253);
+    padding:30px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding:20px;
+    background-color: rgba(94, 226, 164, 0.74);
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.548);
+    font-variant: small-caps;
+    font-stretch: narrower;
+    letter-spacing:1px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius:unset;
+    box-shadow: 0px 4px 1px rgb(250, 250, 250);
+    padding-top: 10px;  
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+.article_concernants_les_nouveautes{
+    -webkit-user-select: none;
+    background-color: rgba(0, 0, 0, 0.700);
+    padding:10px;
+    box-shadow:0px 0px 10px black ;
+    height:450px;
+    width:300px;
+    margin-top: -90px;
+    
+   
+}
+
+
+
+.titre_des_nouveautes{
+    -webkit-user-select: none;
+    color:rgb(250, 250, 250);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.219);
+    padding:20px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgba(94, 226, 164, 0.74);
+    text-shadow:3px 3px 1px rgba(0, 0, 0, 0.548);
+    font-variant: small-caps;
+    font-stretch: narrower;
+    letter-spacing:1px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius:unset;
+    box-shadow: 0px 4px 1px rgb(250, 250, 250);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.annonces{
+    padding: 10px;
+    margin: 10px;
+    border-left: 5px solid beige;
+    border-style: groove;
+    box-shadow: 1px 1px 15px black;
+    padding-top: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    height: 250px;
+
+
+}
+
+
+
+/* Debut: section du corps de la page d'acceuil */
+
+
+/* Debut: Section generale; cette section comporte le contenu de la page d'acceuil ainsi que les bloc des sondages et les nauveautes */
+
+.section_generale{
+    margin-top: 72px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color:rgb(250, 250, 250);
+
+
+}
+
+
+
+/* Fin: Section generale; cette section comporte le contenu de la page d'acceuil ainsi que les bloc des sondages et les nauveautes */
+
+
+
+
+
+
+
+.mots_d_acceuil{
+padding: 25px;
+color: aliceblue;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 40px;
+font-variant: small-caps;
+border-radius: 1px solid aliceblue;
+background-color:rgba(94, 226, 164, 0.74);
+border-bottom: 5px solid aliceblue;
+
+}
+
+
+
+
+
+.corps_de_la_page_d_acceuil{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.700);
+    padding: 0;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-right:5px;
+    height: auto;
+    width: -moz-available;
+    text-shadow: 1px 1px 1px black;
+    box-shadow:0px 0px 10px black;
+    font-size: 22px;
+
+}
+
+
+
+.patagraphe_de_la_page_centrale{
+
+}
+
+
+
+
+.paragraphe{
+
+}
+
+
+
+
+/* Fin: section du corps de la page d'acceuil */
+
+
+
+
+/* Debut: classe qui contient <aside></aside> et <article></article> */
+
+.aside_article{
+display:-moz-box;
+word-spacing: 1ex;
+float:right;
+padding-left:1px;
+}
+
+/* Fin: classe qui contient <aside></aside> et <article></article> */
+
+.check{
+
+padding: 100px;
+max-height: 10px;
+
+
+}
+
+
+label{
+    overflow:auto;
+    height: 2px;
+    width:auto;
+}
+
+
+.checkbox{
+-webkit-user-select: none;
+position: relative;
+margin: 0;
+display:block;
+justify-content: space-between;
+padding: 10px;
+min-height: 10px;
+border-left: 5px solid  rgb(250, 250, 250);
+border-style: dotted;
+border-right: none;
+border-top: none;
+border-bottom: none;
+margin-top:20px;
+margin-left: 6px;
+}
+
+
+.question{
+    margin: 10px;
+    height: 60px;
+    padding: 10px;
+    margin-top:20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    overflow: auto;  
+    border-radius:2px;
+    border: 3px solid snow ;
+    border-style: groove;
+    box-shadow: 1px 1px 5px black;
+    -webkit-animation: alternate-reverse;
+   
+}
+
+/* Debut: bouton de la zone de sondage */
+
+.bouttom_sondage_1{
+    -webkit-user-select: none;
+    margin: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color:rgb(250, 250, 250);
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    background-attachment: fixed;   
+    background-color: rgba(127, 255, 212, 0.479);
+    position: absolute;
+    border-radius:5px ;
+    border-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left:30px;
+    justify-content: end ;
+    text-shadow:1px 1px 5px black;
+}
+
+
+.bouttom_sondage_1:hover ,.bouttom_sondage_2 {
+    cursor: pointer;
+    
+
+
+}
+
+
+
+.bouttom_sondage_2{
+    -webkit-user-select: none;
+    margin: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color:rgb(250, 250, 250);
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    background-attachment: fixed;   
+    background-color: rgba(127, 255, 212, 0.479);
+    position: absolute;
+    border-radius:5px ;
+    border-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 50px;
+   justify-content: end ;
+   right:0;
+    text-shadow:1px 1px 5px black;
+}
+
+
+
+
+
+/* Fin: bouton de la zone de sondage */
+
+
+
+/* Debut: proprietes de pieds de page  */
+
+
+footer{
+    -webkit-user-select: none;
+    position:relative;
+    color:azure;
+    bottom: 0;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    height: auto;
+    font-size: 19px;
+    padding: 1px;
+    text-align: center;
+    font-weight:100;
+    text-shadow:1px 1px 5px black;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.726);
+    
+}
+
+
+
+/* Fin: proprietes de pieds de page */
+
+
+
+
+
+
+
+/* 
+
+.modal-dialog-centered::before {
+    display: block;
+    height: calc(100vh - 1rem);
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    content: "";
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+}
+.modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    -webkit-transform: translate(0,-50px);
+    transform: translate(0,-50px);
+}
+.modal-dialog-centered {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+    }
+
+
+
+    #lan_popup .modal-content {
+    border: 0px solid rgba(0,0,0,.2)!important;
+}
+.rounded-0 {
+    border-radius: 0!important;
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    }
+
+
+    #lan_popup .modal-content .modal-body {
+    border-radius: 0px;
+    overflow: hidden;
+    background-color: #001d4a;
+    padding-left: 0px;
+    padding-right: 0px;
+    -webkit-box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.9);
+}
+
+.pb-0, .py-0 {
+    padding-bottom: 0!important;
+}
+.pt-0, .py-0 {
+    padding-top: 0!important;
+}
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+}
+ body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    position: relative; 
+
+
+
+
+    element.style {
+    min-width: 100px;
+}
+
+#lan_popup .custom-select {
+    border: none;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.custom-control-label::before, .custom-file-label, .custom-select {
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' heig…0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e) no-repeat right .75rem center/8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select {
+    word-wrap: normal;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+select {
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+
+
+}
+
+select {
+    border-radius: 5px;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+} 
+
+*/
+
+
+
+/* Debut: style de la page de connexion */
+
+
+
+
+.plan_arriere{
+    margin: 0;
+    padding: 0;
+    background-image: url('./1649066096468 - Copy.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    background-color: hsla(0, 0%, 0%, 0.85);
+    color: aliceblue;
+    font-size: 22px;
+    font-style: italic;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    
+
+}
+
+
+.bienvenue{
+    text-transform: uppercase;
+       font-style:initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-variant: small-caps;
+}
+
+
+.bouton{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bouton_page_connexion{
+    outline: none;
+    width: 150px;
+    border-radius: 8px;
+    min-height: 1px;
+   
+}
+
+.bouton_page_connexion:hover{
+background-color: #0f0;
+
+}
+
+/* Fin: style de la page de connexion */
